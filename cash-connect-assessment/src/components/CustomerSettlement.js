@@ -21,7 +21,7 @@ function CustomerSettlementPage() {
       return;
     }
 
-    const response = await fetch("https://localhost:44343/api/settle", {
+    const response = await fetch("https://localhost:44343/api/CustomerSettlement/settle", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
@@ -47,7 +47,7 @@ function CustomerSettlementPage() {
         <option value="">-- Choose Customer --</option>
         {customers.map((c) => (
           <option key={c.customerId} value={c.customerId}>
-            {c.name} {c.surName} ({c.companyName})
+             ({c.companyName}) - {c.name} {c.surName}
           </option>
         ))}
       </select>

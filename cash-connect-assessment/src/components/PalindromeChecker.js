@@ -5,7 +5,7 @@ function PalindromePage() {
   const [palindromeResult, setPalindromeResult] = useState(null);
 
   const checkPalindrome = async () => {
-    const response = await fetch("https://localhost:44343/api/palindrome", {
+    const response = await fetch("https://localhost:44343/api/palindrome/Palindrome", { 
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ statement: palindromeInput })
