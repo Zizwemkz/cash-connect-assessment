@@ -127,4 +127,8 @@ React Frontend → User interface for:
 
 Palindrome checker
 
+<<<<<<< HEAD
 Settlement with customer dropdown
+=======
+Settlement with customer dropdown
+>>>>>>> bb2b0bc4958853f608131c3581d5f2d926303efa
