@@ -47,11 +47,15 @@ body {
 }
 
 /* Headings */
-h1, h2 {
-  color: #f4f7fa;
+h2 {
+  color: #1a1485;
   margin-bottom: 20px;
 }
 
+h1 {
+  color: #f4f7fa;
+  margin-bottom: 20px;
+}
 /* Input fields */
 input, select {
   padding: 10px;
